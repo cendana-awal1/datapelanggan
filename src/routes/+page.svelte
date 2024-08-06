@@ -28,7 +28,10 @@
 					on:input={searchPelanggan}
 				/>
 			</div>
-			<TablePelanggan data={dataPelanggan.length > 0 ? dataPelanggan : data} />
+            <div class="table-responsive">
+
+                <TablePelanggan data={dataPelanggan.length > 0 ? dataPelanggan : data} />
+            </div>
 		</div>
 	</div>
 </div>
